@@ -1,0 +1,138 @@
+.header{
+    background-color:  #3d5990;
+    width:100%;
+    height: 80px;
+}
+.logo{
+    padding:19px;
+    padding-left: 180px;
+    font-size: 40px;
+    font-weight:bold;
+    float:left;
+    padding-right: 362px;
+    
+}
+
+.login-label{
+    color: white;
+    font-size:11px
+}
+.forgot-label{
+    font-size:9px;
+    color:#b7bcc5;
+}
+.content-text{
+    font-style:initial;
+    font-weight: bold;
+    font-size: 20px;
+    color: #2d4b88;
+}
+.birthday{
+    width:60%;
+    float: left;
+    margin-left:9px;
+    height: 500px;
+}
+.birthday-text{
+    width:40%;
+    float: left;
+    margin: 2px;
+    margin-left: -184px;
+}
+.contend{
+    width:100%;
+    height:644px;
+}
+.left-contend{
+    float:left;
+    width:40%;
+    height: 50%;
+    padding-top:32px;
+    padding-left: 130px;
+    margin: 0px;
+}
+.right-contend{
+    float: left;
+    padding-left: 30px;
+    width: 48%;
+    height: 50%;
+    margin: 0px;
+}
+.button-label{
+    background-color: #5c77ad;
+    border-color: rgba(47, 19, 125, 0.799);
+    cursor: pointer;
+}
+.button-label:hover{
+    color: #fff
+}
+.fb-logo{
+    text-decoration: none;
+    color:white;
+}
+#input-data {
+    height: 32px;
+    margin: 7px;
+    width:187px;
+    border-style: revert;
+
+}
+#input-data3 {
+    height: 32px;
+    margin: 7px;
+    width:187px;
+    border-style: revert;
+
+}
+#input-data2 {
+    height: 32px;
+    margin: 7px;
+    width:400px;
+    border-style: revert;
+
+}
+.radio-gender{
+    margin-top: 20px;
+    width:100%;
+    height:25px;
+}
+#submit{
+    background-color: rgb(12, 125, 12);
+    color: white;
+    width: 150px;
+    height: 30px;
+    border: darkgrey;
+    margin-left: 100px;
+    cursor: pointer color white;  
+}
+#last-line{
+    margin-left:0px;
+    margin-top:10px;
+    
+}
+#last-line2{
+    text-decoration: none;
+}
+.footer-top{
+    text-decoration: none;
+    padding-left: 338px;
+    color: #9faeca;
+}
+body{
+    margin:0;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: #eeeefa;
+    height: 648px;
+}
+.footer{
+    width: 100%;
+    height:180px;
+    background-color: white;
+    padding-left: 84px;
+    font-style: initial;
+    color:#5c77ad;
+    
+}
+a{
+    text-decoration: none;
+}

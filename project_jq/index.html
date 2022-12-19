@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JQuery</title>
+</head>
+<body>
+    <input type="text" id="inp">
+    <label id="error" style="display: none">enter min number of 4 charactors</label>
+    <input type="text" id="inp2">
+
+    <button id="clk">click</button>
+    <div style="width:400px;height:300px;background-color: blue;" id="box"></div>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js" integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    <script>
+        $(document).ready(function() {
+            $("#clk").click(function() {
+               //alert("helloworld")
+               $("#box").fadeToggle(300)
+            })
+            $("#clk").mouseenter(function() {
+                $(this).css({"background":"red"})
+            })
+            $("#clk").mouseleave(function() {
+                $(this).css({"background":"white"})
+            })
+            $("#inp").blur(function() {
+                var text=$(this).val()
+                if(text.length<4){
+                    $("#error").show()
+                }else{
+                    $("#error").hide()
+                }
+                
+            })
+            $('#inp').keydown(function() {
+                
+            })
+        })
+    </script>
+</body>
+</html>

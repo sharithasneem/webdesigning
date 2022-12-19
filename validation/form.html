@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+    <style>
+        body{
+            font-family: "Helvetica Neue",Helvetica;
+        }
+        .root_body{
+            width: 40%;
+            height: 440px;
+            margin: 60px;
+            margin-left: 450px;
+            border-style: solid;
+            padding:40px;
+        }
+        .name{
+            width: 250px;
+            height: 27px;
+            margin:10px;
+        }
+        #clickme{
+            width: 100px;
+            height:30px;
+            margin-left: 200px;
+            margin-top: 50px;
+        }
+        
+    </style>
+</head>
+<body>
+    <div class="root_body">
+        <form id="thisform">
+            <h3>Validation Form</h3><hr>
+            <label id="fnameid" >First name :</label>
+            <input type="text" class="name" name="fname" placeholder="Enter first name" ><br>
+            <label id="snameid">Last name :</label>
+            <input type="text" class="name"  name="sname" placeholder="Enter last name" ><br>
+            <label id="passwordid">Create your password :</label>
+            <input type="password"class="name" name="password" placeholder="password" ><br>
+            <label id="passwordid">Re-enter your password :</label>
+            <input type="password" class="name" name="re_password" placeholder="re-enter password" ><br>
+            <button type="submit" id="clickme">submit</button>
+            
+        </form>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.5/dist/jquery.validate.min.js"></script>
+    <script src="form.js"></script>
+</body>
+</html>
